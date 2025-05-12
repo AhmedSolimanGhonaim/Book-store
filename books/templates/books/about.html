@@ -1,0 +1,116 @@
+{% extends 'books/base.html' %}
+
+{% block title %}About - Library{% endblock %}
+
+{% block content %}
+<!-- About Hero Section -->
+<section class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-4">About Our Library</h1>
+        <p class="lead">Learn more about our mission and services</p>
+    </div>
+</section>
+
+<!-- About Content Section -->
+<section class="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <h2>Our Story</h2>
+                <p>Founded in 2023, our library has been dedicated to providing access to knowledge and fostering a love for reading in our community. We believe that books have the power to transform lives, broaden perspectives, and inspire innovation.</p>
+                <p>What started as a small collection has grown into a comprehensive library with thousands of titles across various genres and subjects. Our mission is to create a welcoming space where people of all ages and backgrounds can explore, learn, and grow.</p>
+                
+                <h3 class="mt-4">Our Mission</h3>
+                <p>To provide accessible, diverse, and high-quality literary resources that enrich the intellectual and cultural life of our community.</p>
+                
+                <div class="mt-4">
+                    <h4><i class="fas fa-book me-2 text-primary"></i>Our Collection</h4>
+                    <p>We pride ourselves on our diverse collection that spans fiction, non-fiction, reference materials, periodicals, and digital resources. Our collection is carefully curated to reflect the interests and needs of our community.</p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card shadow-sm mb-4">
+                    <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-users me-2 text-primary"></i>Our Team</h3>
+                        <p>Our dedicated staff of librarians and volunteers are passionate about books and committed to providing excellent service to our patrons.</p>
+                        
+                        <div class="row mt-4">
+                            <div class="col-md-6 mb-3">
+                                <div class="text-center">
+                                    <i class="fas fa-user-circle fa-4x mb-2 text-secondary"></i>
+                                    <h5>Jane Doe</h5>
+                                    <p class="text-muted">Head Librarian</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <div class="text-center">
+                                    <i class="fas fa-user-circle fa-4x mb-2 text-secondary"></i>
+                                    <h5>John Smith</h5>
+                                    <p class="text-muted">Assistant Librarian</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h3 class="card-title"><i class="fas fa-clock me-2 text-primary"></i>Opening Hours</h3>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Monday - Friday</span>
+                                <span>9:00 AM - 8:00 PM</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Saturday</span>
+                                <span>10:00 AM - 6:00 PM</span>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between">
+                                <span>Sunday</span>
+                                <span>12:00 PM - 5:00 PM</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Services Section -->
+        <div class="row mt-5">
+            <div class="col-12">
+                <h2 class="text-center mb-4">Our Services</h2>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-book-reader fa-3x mb-3 text-primary"></i>
+                        <h4>Book Borrowing</h4>
+                        <p>Borrow from our extensive collection of books, magazines, and other materials.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-laptop fa-3x mb-3 text-primary"></i>
+                        <h4>Digital Resources</h4>
+                        <p>Access e-books, online databases, and digital learning materials.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body text-center">
+                        <i class="fas fa-chalkboard-teacher fa-3x mb-3 text-primary"></i>
+                        <h4>Educational Programs</h4>
+                        <p>Participate in workshops, reading clubs, and educational events.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
